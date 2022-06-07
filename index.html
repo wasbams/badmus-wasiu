@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+
+    <title>Drone Display</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="video-container">
+        <video width="100%" height="100%" autoplay controls>
+          <source src="./<videoURL>.mp4" type="video/mp4" />
+          <source src="./<videoURL>.ogg" type="video/ogg" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <div class="profile_and_control">
+        <div class="connect-battery">
+          <span class="connect">Connect</span>
+          <span class="battery">Battery</span>
+        </div>
+
+        <div class="profile">
+          <div class="user-details">
+            <p>Name:</p>
+            <p>Designation:</p>
+          </div>
+        </div>
+
+        <div class="box-container">
+          <div class="boxes box1"></div>
+          <div class="boxes box2"><button class="box-btn">Takeoff</button></div>
+          <div class="boxes box3"></div>
+          <div class="boxes box4"><button class="box-btn">Left</button></div>
+          <div class="boxes box5"></div>
+          <div class="boxes box6"><button class="box-btn">Right</button></div>
+          <div class="boxes box7"></div>
+          <div class="boxes box8"><button class="box-btn">Land</button></div>
+          <div class="boxes box9"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
